@@ -1,0 +1,31 @@
+{
+  "name": "insta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanHung14/insta.git"
+  },
+  "keywords": [
+    "nodejs",
+    "insta",
+    "vanhung"
+  ],
+  "author": "vanhung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanHung14/insta/issues"
+  },
+  "homepage": "https://github.com/VanHung14/insta#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
