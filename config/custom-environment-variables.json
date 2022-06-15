@@ -1,3 +1,4 @@
     {
-    "jwtPrivateKey": "insta_jwtPrivateKey" 
+    "jwtPrivateKey": "insta_jwtPrivateKey" ,
+    "db": "insta_db"
 }

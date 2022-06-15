@@ -7,12 +7,13 @@ class SiteController{
 
     // [GET] /
     async index(req, res, next) {
-        try{
-            const user = await User.findById(req.user._id)
-        }
-        catch(ex){
-            next(ex)
-        }
+        // try{
+        //     const user = await User.findById(req.user._id)
+        // }
+        // catch(ex){
+        //     next(ex)
+        // }
+        const user = await User.findById(req.user._id)
         Post.find({})
             .then(posts => {
                 res.render('home', { 
