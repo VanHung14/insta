@@ -22,7 +22,7 @@ const db = require('./config/db')
 db.connect()
 
 // static file
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, '/public')))
 
 // middlewaree processing html
 app.use(express.urlencoded({
