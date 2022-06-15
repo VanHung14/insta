@@ -1,0 +1,22 @@
+<div class="mt-4">
+    <h3>Cập nhật bài đăng</h3>
+
+    <form class="mt-4" method="post" action="/posts/{{post._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="name">Tên ảnh</label>
+            <input type="text" class="form-control" value="{{post.name}}" id="name" name="name">
+            
+        </div>
+        <div class="form-group">
+            <label for="description">Mô tả</label>
+            <textarea class="form-control"  id="description" name="description">{{post.description}}
+            </textarea>
+        </div>
+        <div class="form-group">
+            <label for="image">Đường dẫn</label>
+            <input type="text" class="form-control" value="{{post.image}}" id="image" name="image">
+            
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu lại</button>
+    </form>
+</div>
