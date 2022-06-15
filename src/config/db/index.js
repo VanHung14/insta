@@ -9,10 +9,10 @@ async function connect(){
         {
             
         });
-        console.log(config.get('db'))
+        console.log('connecting to', config.get('db'))
     }
     catch{
-        console.log('false')
+        console.log('connect false')
 
     }
 }
