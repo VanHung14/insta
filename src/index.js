@@ -7,7 +7,7 @@ const express = require('express')
 const handlebars = require('express-handlebars')
 const methodOverride = require('method-override')
 const app = express()
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 
 if(!config.get('jwtPrivateKey')){
