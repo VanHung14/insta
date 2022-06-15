@@ -8,7 +8,6 @@ const handlebars = require('express-handlebars')
 const methodOverride = require('method-override')
 const app = express()
 const port = 3000
-const uri = process.env.MONGODB_URI;
 
 
 if(!config.get('jwtPrivateKey')){

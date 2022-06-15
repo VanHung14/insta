@@ -9,7 +9,7 @@ async function connect(){
         {
             
         });
-        console.log('connect successfully')
+        console.log(config.get('db'))
     }
     catch{
         console.log('false')
